@@ -1,0 +1,84 @@
+/* untuk desktop */
+/* @media screen and (min-width: 1024px) {
+} */
+
+/* untuk tablet */
+/* @media screen and (min-width: 768px) and (max-width: 1023px) {
+} */
+
+/* untuk mobile */
+@media screen and (max-width: 767px) {
+  .navbar-nav {
+    display: none;
+  }
+
+  .humberger-icon div {
+    width: 35px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.55);
+    margin: 6px 0;
+  }
+
+  main .d-grid {
+    grid-template-columns: 100%;
+  }
+
+  .display-4 {
+    font-size: revert;
+  }
+
+  .jumbotron p {
+    font-weight: normal;
+    padding: 0 15px;
+  }
+
+  .container.d-flex.flex-row.alamat-pengembang {
+    font-size: 0.8em;
+  }
+
+  .container.d-grid {
+    font-size: 0.8em;
+  }
+
+  .navbar-mobile {
+    position: absolute;
+    left: 0;
+    top: 81px;
+    width: 100%;
+    display: none;
+    align-items: stretch;
+    text-align: end;
+    background-color: rgba(255, 255, 255, 0.829);
+  }
+
+  nav .dropdown-pelayanan,
+  nav .dropdown-admin {
+    position: unset;
+    background-color: transparent;
+    border-radius: 0;
+    font-size: 0.8em;
+  }
+
+  .flex-row {
+    flex-direction: column !important;
+  }
+
+  .navbar-nav li:hover {
+    border-radius: 0;
+  }
+
+  .navbar-nav li {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  footer h3 {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-weight: 550;
+  }
+
+  table {
+    font-size: 0.7em;
+  }
+}
